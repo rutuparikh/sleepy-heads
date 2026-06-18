@@ -14,7 +14,6 @@ Parents and caregivers often need quick, gentle, age-appropriate bedtime stories
 - The draft is reviewed for quality, age fit, structure, and alignment with the user's request.
 - If the draft is not strong enough, it is revised using the feedback from a story judge.
 - The final response is returned as a polished, readable bedtime story.
-- Personas used: Input Validator, Story Planner, Story Builder, Story Judge
 
 ## Architecture Diagram
 
@@ -27,6 +26,9 @@ System highlights:
 - OpenAI Chat Completions API
 - Per-stage OpenAI configuration for user input, instructions, max_tokens, temperature
 - Final story formatter
+
+  <img width="1901" height="864" alt="sleepy-heads" src="https://github.com/user-attachments/assets/9b701c9c-8908-4061-bb3f-b9f8be5fa3a1" />
+
 
 ## Future Enhancements
 
