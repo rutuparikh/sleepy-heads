@@ -27,9 +27,8 @@ System highlights:
 - Per-stage OpenAI configuration for user input, instructions, max_tokens, temperature
 - Final story formatter
 
-  <img width="1901" height="864" alt="sleepy-heads" src="https://github.com/user-attachments/assets/b92fadb1-5fac-4109-92f9-8a12d78b2812" />
-
-
+  <img width="1901" height="864" alt="sleepy-heads" src="https://github.com/user-attachments/assets/0931de7b-c487-464c-8a31-57aa907b4b46" />
+  
 
 ## Future Enhancements
 
