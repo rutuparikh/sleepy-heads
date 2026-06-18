@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Parents and caregivers often need quick, gentle, age-appropriate bedtime stories that can be revised through natural conversation. Sleepy Heads turns a user's chat request into a structured children's bedtime story, remembers follow-up instructions in the same session, and uses a judge feedback loop to improve the story before returning the final version.
+Parents and caregivers often need quick, gentle, age-appropriate bedtime stories that can be revised through natural conversation. Sleepy Heads turns a user's request into a structured children's bedtime story, remembers follow-up instructions in the same session, and uses a judge feedback loop to improve the story before returning the final version.
 
 ## Solution
 
@@ -18,20 +18,14 @@ Parents and caregivers often need quick, gentle, age-appropriate bedtime stories
 
 ## Architecture Diagram
 
-Add the diagram here later. Include these system components:
+System highlights:
 
-- React frontend chat UI
-- Session id stored in frontend state
-- FastAPI `/api/chat` endpoint
-- In-memory session request store
-- `StoryPipeline`
-- `input_guardrail.md`
-- `story_planner.md`
-- `story_builder.md`
-- `story_judge.md`
-- `ResponsesClient`
+- Chat UI (React)
+- Session management to accomodate request changes and feedback
+- In-memory request store
+- Story Pipeline: Orchestration as shown in diagram (Prompts/Personas for Input Validator, Story Planner, Story Builder, Story Judge)
 - OpenAI Chat Completions API
-- Per-stage OpenAI configuration
+- Per-stage OpenAI configuration for user input, instructions, max_tokens, temperature
 - Final story formatter
 
 ## Future Enhancements
@@ -42,7 +36,7 @@ Add the diagram here later. Include these system components:
 - Conversation reset and session management in the frontend.
 - Stage-level observability dashboard for scores, retries, and token usage.
 
-## Run Locally From A Fresh Setup
+## Run Locally
 
 Backend:
 

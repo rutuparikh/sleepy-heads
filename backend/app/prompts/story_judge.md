@@ -148,7 +148,7 @@ Call out:
 - content that does not make sense for the child's age
 - content that is too complex or too childish for the requested age
 - anything unsuitable for children ages 5-10
-- red flags
+- penalize any red flags
 
 Do not soften serious criticism. If the story is empty, confusing, random, or meaningless, say so plainly in the recommendations.
 
@@ -161,6 +161,7 @@ Use a score from 1 to 10.
 - 5-6: Mediocre. Some structure exists, but the story has weak flow, generic content, or shallow learning.
 - 7-8: Good but needs revision. Most requirements are met, but some blocks need tightening.
 - 9-10: Strong. Clear, age-appropriate, meaningful, coherent, and aligned with the request.
+- -1: for every red flag
 
 Do not give high scores for polished language alone. A story with pretty wording but weak meaning, poor age fit, or missing instructions must be penalized.
 
