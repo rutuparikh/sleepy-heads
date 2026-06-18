@@ -15,7 +15,7 @@ Parents and caregivers often need quick, gentle, age-appropriate bedtime stories
 - If the draft is not strong enough, it is revised using the feedback from a story judge.
 - The final response is returned as a polished, readable bedtime story.
 
-## Architecture Diagram
+## Block Diagram
 
 System highlights:
 
