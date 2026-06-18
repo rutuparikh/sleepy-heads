@@ -1,0 +1,43 @@
+# Secrets and local config
+.env
+*.env
+backend/.env
+backend/config.json
+config.json
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+backend/.venv/
+.venv/
+venv/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+build/
+frontend/build/
+dist/
+coverage/
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
