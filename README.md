@@ -53,7 +53,7 @@ Create `backend/.env`:
 
 ```env
 OPENAI_API_KEY=your_key_here
-OPENAI_MODEL=gpt-4.1-mini
+OPENAI_MODEL=gpt-3.5-turbo
 ```
 
 Start the backend:
